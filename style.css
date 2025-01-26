@@ -10,6 +10,7 @@
 body{
     background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
 }
 
 .page-container{
@@ -104,6 +105,14 @@ form{
     width:100%;
     max-width: 800px;
     margin-top: 15px;
+}
+.submit{
+    color:#ffe557;
+    font-family: special-elite;
+    background-color: black;
+    padding:6px 6px 4px 6px;
+    border-width: 0px;
+    border-radius: 0px;
 }
 
 footer{
