@@ -1,0 +1,16 @@
+To do list
+
+All pages
+    Make current page in nav not a link/yellow
+    General neatening up of layout
+
+Index
+
+Porfolio 
+    Add grid
+    Connect info to JSON
+
+Contact
+    Style "submit" button
+    Reduce gap between lables and boxes
+    Make responsive
