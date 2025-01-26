@@ -8,3 +8,24 @@ body{
     margin:0 auto;
     background-color: white;
 }
+.header-image{
+    height: 90px;
+    background-image: url("images/portfolio_background.png");
+}
+.background-tint {
+    background-color: rgba(0, 0, 0, 0.155);
+    background-blend-mode: multiply;
+  }
+
+.header{
+    background-color: black;
+}
+
+.my-name{
+    margin:0;
+}
+
+footer{
+    height: 50px;
+    background-image: url("images/portfolio_background.png");  
+}
