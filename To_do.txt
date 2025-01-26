@@ -3,6 +3,7 @@ To do list
 All pages
     Make current page in nav not a link/yellow
     General neatening up of layout
+    Remove page border
 
 Index
 
@@ -11,6 +12,8 @@ Porfolio
     Connect info to JSON
 
 Contact
-    Style "submit" button
+    DONE Style "submit" button
     Reduce gap between lables and boxes
     DONE Make responsive
+    Add error messages
+    Add 
