@@ -13,4 +13,4 @@ Porfolio
 Contact
     Style "submit" button
     Reduce gap between lables and boxes
-    Make responsive
+    DONE Make responsive
