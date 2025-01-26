@@ -1,10 +1,20 @@
+@font-face {
+    font-family: harting;
+    src: url(fonts/harting/harting_plain.ttf);
+}
+
+@font-face {
+    font-family: special-elite;
+    src: url(fonts/special-elite/special_elite.ttf);
+}
 body{
     background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .page-container{
     width:100%;
-    max-width:1200px;
+    max-width:1000px;
     margin:0 auto;
     background-color: white;
 }
@@ -19,13 +29,103 @@ body{
 
 .header{
     background-color: black;
+    padding: 0px;
 }
 
 .my-name{
     margin:0;
+    color:#ff52b2;
+    font-size: 50px;
+    font-family: harting;
+}
+.tag-line{
+    color:white;
+    text-decoration:none;
+    margin:0px;
+    font-family: special-elite;
+}
+.header-2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:baseline;
+
+}
+nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    gap:5px;
+    color:white;
+    padding: 0px;
+    margin:0px;
+    font-family: special-elite;
+    font-size: 25px;
 }
 
+nav a{
+    color:white;
+    text-decoration: none;
+}
+main{
+    padding: 20px 20px;
+}
+h1{
+    font-family: special-elite;
+    font-size:22px;
+    font-weight: bolder;
+    padding:0px;
+    margin:0px;
+}
+p{
+    margin:0px;
+}
+.page-content{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    gap:10px;
+}
+.my-picture{
+    max-width:300px;
+}
 footer{
     height: 50px;
     background-image: url("images/portfolio_background.png");  
+    background-color: rgba(0, 0, 0, 0.155);
+    background-blend-mode: multiply;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap:0;
+}
+
+footer p{
+    font-family:special-elite;
+    color:white;
+    text-align: center;
+}
+
+@media screen and (max-width:750px) { 
+    /* Remove flexbox from header nav */
+    .header-2{
+        display:block;
+    }
+    nav{
+    justify-content: left;
+    }
+    h3{
+        padding:5px;
+    }
+    /* Remove grid from main */
+    main{
+        padding: 10px;
+    }
+    .page-content{
+        grid-template-columns: 1fr;
+
+    }
+
 }
