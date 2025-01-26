@@ -89,6 +89,23 @@ p{
 .my-picture{
     max-width:300px;
 }
+
+/* Form */
+label{
+    font-family: special-elite;
+    font-size: 18px;
+    text-align: right;
+}
+
+form{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    gap:10px 50px;
+    width:100%;
+    max-width: 800px;
+    margin-top: 15px;
+}
+
 footer{
     height: 50px;
     background-image: url("images/portfolio_background.png");  
