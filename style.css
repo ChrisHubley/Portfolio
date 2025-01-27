@@ -15,7 +15,7 @@ body{
 
 .page-container{
     width:100%;
-    max-width:1000px;
+    max-width:1200px;
     margin:0 auto;
     background-color: white;
 }
@@ -23,8 +23,12 @@ body{
     height: 90px;
     background-image: url("images/portfolio_background.png");
 }
+.divider{
+    height: 20px;
+background-image: url("images/portfolio_background.png");
+}
 .background-tint {
-    background-color: rgba(0, 0, 0, 0.155);
+    background-color: rgba(0, 0, 0, 0.250);
     background-blend-mode: multiply;
   }
 
@@ -71,7 +75,7 @@ nav a{
     color:white;
     text-decoration: none;
 }
-main{
+.content-div{
     padding: 20px 20px;
     margin: 30px 0px;
 }
@@ -121,7 +125,7 @@ form{
 footer{
     height: 50px;
     background-image: url("images/portfolio_background.png");  
-    background-color: rgba(0, 0, 0, 0.155);
+    background-color: rgba(0, 0, 0, 0.250);
     background-blend-mode: multiply;
 
     display:flex;
@@ -129,9 +133,7 @@ footer{
     justify-content: center;
     text-align: center;
     gap:0;
-}
 
-footer p{
     font-family:special-elite;
     color:white;
     text-align: center;

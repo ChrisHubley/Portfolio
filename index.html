@@ -20,9 +20,9 @@
         <div class="header-2">
             <h2 class="my-name">chris hubley.</h2>
             <nav>
-                <a class="menu-link" href="index.html">About</a><p>|</p>
-                <a class="menu-link" href="portfolio.html">Portfolio</a></a><p>|</p>
-                <a class="menu-link" href="contact.html">Contact</a>
+                <a class="menu-link" href="#about">About</a><p>|</p>
+                <a class="menu-link" href="#portfolio">Portfolio</a></a><p>|</p>
+                <a class="menu-link" href="#contact">Contact</a>
             </nav>
          </div>
          <h3 class="tag-line">I will write a tag line that goes in here</h3>
@@ -30,10 +30,51 @@
     </div>
     <!-- Main -->
     <main>
+        <!-- Front page -->
+        <div class="front content-div">
+            <h1 class="page-title">Welcome!
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nihil odio provident accusantium dolore dolorum doloremque cumque! Officiis, accusamus repudiandae earum accusantium numquam error necessitatibus at sed. Corrupti, sint quod.</p>
+            </h1>
+        </div>
+        
+<div class="divider background-tint"></div>
+
+        <div class="content-div" id="about">
         <h1 class="page-title">About Chris</h1>
         <div class="page-content">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt expedita quibusdam perspiciatis odio, nostrum voluptate similique reiciendis reprehenderit optio numquam ullam explicabo, porro, placeat quas distinctio iure mollitia magni incidunt.</p>
             <img class="my-picture" src="https://ca.slack-edge.com/T3CSKGCFN-U08746GKEQM-77e92ad5a0ee-512" alt="Chris Hubley's face"/>
+        </div>
+    </div>
+    
+<div class="divider background-tint"></div>
+        <div class="content-div">
+            <h1 class="page-title" id="portfolio">Portfolio</h1>
+            <p>Check out some of the projects I've been working on</p>
+            <div class="portfolio content">
+               <h4 class="project-name">Project Name</h4>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis reprehenderit ad ea ipsam molestias, impedit in laboriosam, debitis doloremque, consectetur corrupti quidem sunt. Quisquam impedit repellat inventore aliquid ut consequuntur.</p>
+            </div>
+        </div>
+        <div class="divider background-tint"></div>
+        <div class="content-div" id="contact">
+            <h1 class="page-title">Get in touch</h1>
+            <p>If you'd like to get in touch with me fill out the form below and I'll get back to you as soon as I can</p>
+            <div class="page-content">
+               <form>
+    <!-- Form contains name, email address and message, all fields are required -->
+             <label for=”name”>Name:</label>
+             <input type=”text” id=”name” name=”name”>
+             <label for=”email”>Email Address:</label>
+             <input type=”email” id=”email” name=”email”>
+             <label for=”message”>Message:</label>
+             <textarea id="comments" name="field3" class="comments"></textarea>
+                <span></span>
+                 <div>
+                    <input type="submit" value="Submit" class="submit"/>
+                </div>
+               </form> 
+            </div>
         </div>
     </main>
 
