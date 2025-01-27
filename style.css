@@ -8,17 +8,17 @@
     src: url(fonts/special-elite/special_elite.ttf);
 }
 body{
-    background-color: black;
+    background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin:0;
 }
 
-.page-container{
+/* .page-container{
     width:100%;
     max-width:1200px;
     margin:0 auto;
-    background-color: white;
-}
+    background-color: white; */
+/* } */
 .header-image{
     height: 90px;
     background-image: url("images/portfolio_background.png");
@@ -26,6 +26,8 @@ body{
 .divider{
     height: 20px;
 background-image: url("images/portfolio_background.png");
+width:100%;
+max-width:none;
 }
 .background-tint {
     background-color: rgba(0, 0, 0, 0.250);
@@ -35,6 +37,7 @@ background-image: url("images/portfolio_background.png");
 .header{
     background-color: black;
     padding: 0px;
+
 }
 
 .my-name{
@@ -78,6 +81,9 @@ nav a{
 .content-div{
     padding: 20px 20px;
     margin: 30px 0px;
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
 }
 h1{
     font-family: special-elite;
