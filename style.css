@@ -177,12 +177,23 @@ form{
 .submit{
     color:#ffe557;
     font-family: special-elite;
+    font-size:1rem;
     background-color: black;
-    padding:6px 6px 4px 6px;
+    padding:7px 7px 4px 7px;
     border-width: 0px;
     border-radius: 0px;
+    margin-top:5px;
+}
+.form .error {
+    display:none;
+
 }
 
+form .error.visible {
+    display:block;
+    margin:0px;
+    padding:0px;
+}
 footer{
     height: 50px;
     background-image: url("images/portfolio_background.png");  
