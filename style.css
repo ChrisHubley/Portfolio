@@ -103,7 +103,15 @@ p{
 .my-picture{
     max-width:300px;
 }
-
+.portfolio-links{
+    text-decoration: none;
+    color:black;
+    font-family: special-elite;
+    size: 24px;
+}
+.portfolio-links:hover{
+    color:#ff52b2;
+}
 /* Form */
 label{
     font-family: special-elite;

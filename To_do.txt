@@ -1,20 +1,17 @@
 To do list
 
-All pages
-    Make current page in nav not a link/yellow
+Top/general
+    make nav links change colour on hover
     General neatening up of layout
     DONE Remove page border
-    *Responsive: make it so the menu is in line with my name when 
-    the page is big but under the tag line when smaller 
-        I think the easiest way to do this is to create two 
-        separate versions that appear/disappear as the page changes size
-
-
-Index
+   
 
 Porfolio 
     Add grid
     Connect info to JSON
+        create JSON file
+        Create boxes in HTML (with tags)
+        Create JS code
 
 Contact
     DONE Style "submit" button
