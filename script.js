@@ -16,22 +16,22 @@ fetch("./portfolio.json")
 
         // Title
         const a = document.createElement("a");
-        const title = document.createTextNode(projectName.innerHTML = project.name);
-        a.setAttribute('href', 'project.link'); //can't get it to get the links from the JSON
+        const title = document.createTextNode(project.name);
+        a.setAttribute('href', project.link);
         a.setAttribute('class', 'portfolio-links')
          a.appendChild(title);
         document.getElementById("portfolio-content").appendChild(a);
 
         // Description
         const p = document.createElement("p");
-        const description = document.createTextNode(project_info.innerHTML = project.info);
+        const description = document.createTextNode(project.info);
 
         p.appendChild(description);
         document.getElementById("portfolio-content").appendChild(p);
         
        //Image
        const img = document.createElement('img');
-       img.src ='images/project_1.png';//can't get it to get the images from the JSON
+       img.src =project.image;
        document.getElementById('portfolio-content').appendChild(img);
 
        //Break
