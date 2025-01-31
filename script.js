@@ -55,7 +55,7 @@ fetch("./portfolio.json")
 
 
 //contact form
-document.querySelector('.form').addEventListener('submit',handleSubmit)
+document.querySelector('form').addEventListener('submit',handleSubmit)
 
 function handleSubmit(e){
     console.log('Form is submitting')
