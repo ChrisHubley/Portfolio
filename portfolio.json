@@ -1,22 +1,22 @@
 {
-    "test": "This is test data",
+
     "projects": [
         {
             "name": "The JSON Worked",
-            "info": "The first project that I made",
+            "info": "LoLorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt expedita quibusdam perspiciatis odio, nostrum voluptate similique reiciendis reprehenderit optio numquam ullam explicabo, porro, placeat quas distinctio iure mollitia magni incidunt.",
             "image": "images/project_1.png",
             "alt": "some alt text",
             "link": "https://github.com/wowie"
         },
         {
             "name": "It worked twice",
-            "info": "it's so good",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt expedita quibusdam perspiciatis odio, nostrum voluptate similique reiciendis reprehenderit optio numquam ullam explicabo, porro, placeat quas distinctio iure mollitia magni incidunt.",
             "image": "images/project_2.png",
             "link": "https://github.com/zowie"
         },
         {
             "name": "And it's worked thrice",
-            "info": "it's so good",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt expedita quibusdam perspiciatis odio, nostrum voluptate similique reiciendis reprehenderit optio numquam ullam explicabo, porro, placeat quas distinctio iure mollitia magni incidunt.",
             "image": "images/project_3.png",
             "link": "https://github.com/kapowie"
         }

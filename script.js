@@ -32,6 +32,7 @@ fetch("./portfolio.json")
        const img = document.createElement('img');
        img.src =project.image;
        img.alt = project.alt|| "Project Image";
+       img.setAttribute('class','project-image-json')
 
         // Create a container for the description and image, to be displayed on the second row
         const textAndImageContainer = document.createElement('div');
